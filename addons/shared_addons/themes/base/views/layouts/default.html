@@ -8,13 +8,14 @@
 	{{ endif }}
 	<!-- content -->
 	<section id="content">
-		{{ theme:partial name="breadcrumbs" }}		
-		{{ template:body }}
+		{{ theme:partial name="breadcrumbs" }}	
 		<!-- slider -->
 		{{ if { url:segments segment="1" } == '' AND theme:options:slider == 'yes' }}
 			{{ theme:partial name="slider" }}
 		{{ endif }}
-		<!-- /slider -->
+		<!-- /slider -->		
+		{{ template:body }}
+		
 	</section>
 	<!-- /content -->
 

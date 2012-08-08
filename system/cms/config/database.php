@@ -33,9 +33,9 @@
 
 // Development
 $db[PYRO_DEVELOPMENT] = array(
-	'hostname'		=> 	'www.corpkzek.com',
-	'username'		=> 	'corpkzek_admcms',
-	'password'		=> 	'cuptable2',
+	'hostname'		=> 	'localhost',
+	'username'		=> 	'root',
+	'password'		=> 	'',
 	'database'		=> 	'corpkzek_webcms',
 	'dbdriver' 		=> 	'mysql',
 	'dbprefix' 		=>	'',
