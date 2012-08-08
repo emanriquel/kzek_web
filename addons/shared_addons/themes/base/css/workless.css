@@ -1168,7 +1168,7 @@ Primary styles. (Mobile first, everything else is overridden with @media queries
 -------------------------------------------------------------------------------------------------------
 */
 .container {
-	width: auto;
+	width: 90%;
 	height: 100%;
 	margin: 0;
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
@@ -1506,7 +1506,7 @@ footer {
 	border-top: 8px solid rgba(0, 0, 0, 0.1);
 	position: relative;
 	z-index: 99;
-	width: 100%;
+	width: 90%;
 	padding: 0 25px 25px 25px;
 	float: left;
 }
